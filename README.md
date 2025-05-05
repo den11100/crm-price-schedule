@@ -150,7 +150,7 @@ type = 3 - онлайн приём.
 
 ```json
 {
-  "crm_room_id": 12,
+  "erp_employee_doctor_id": 12,
   "dt": "2025-04-22",
   "time_start": "10:00:00",
   "time_end": "10:20:00",
