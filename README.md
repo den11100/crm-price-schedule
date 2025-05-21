@@ -19,7 +19,7 @@ X-Api-Key: {your_api_key}
 ```json
 {
   "status": "fail",
-  "error": "Bad API key",
+  "error": "Не верный API ключ",
   "code": 2
 }
 ```
@@ -96,7 +96,7 @@ X-Api-Key: {your_api_key}
 ```json
 {
   "status": "fail",
-  "error": "Текст ошибки",
+  "error": "Текст ошибки на русском",
   "code": (int) код ошибки
 }
 ```
