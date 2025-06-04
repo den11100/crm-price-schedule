@@ -75,6 +75,7 @@ X-Api-Key: {your_api_key}
         "time_zone": "+03:00",
         "is_deleted": 0,
         "erp_medoffice_id": 1
+        "city_id": 4400
       },
       "isActiveApiPrice": true
     },
@@ -130,6 +131,7 @@ X-Api-Key: {your_api_key}
 | `time_zone`        | string    | Часовой пояс (`+03:00`)                                    |
 | `is_deleted`       | integer   | Флаг удаления (0/1)                                        |
 | `erp_medoffice_id` | integer   | ID медофиса в ERP                                          |
+| `city_id`          | integer   | ERP город ID (erp.city.id)                                 |
 
 
 
