@@ -177,14 +177,16 @@ X-Api-Key: {your_api_key}
             "time_start": "08:00:00",
             "time_end": "08:10:00",
             "free": 1,
-            "type": 1
+            "type": 1,
+            "crm_appointment_id": null,
           },
           {
             "dt": "2025-05-21",
             "time_start": "08:10:00",
             "time_end": "08:20:00",
-            "free": 1,
-            "type": 1
+            "free": 0,
+            "type": 1,
+            "crm_appointment_id": 102001,
           }
         ]
       }
