@@ -157,12 +157,12 @@ X-Api-Key: {your_api_key}
         {
             "id": 6,
             "office_id": 1,
-            "name": "Иванов Иван Иванович",
+            "name": "Иванов Иван Иванович, приписка может быть",
             "comment": "",
             "min_time": "00:00:00",
             "max_time": "23:55:00",
             "grid_pitch": 60,
-            "fio": "ЭЭГ-МОНИТОРИНГ",
+            "fio": "Иванов Иван Иванович",
             "erp_employee_doctor_id": null,
             "office": {
                 "id": 1,
