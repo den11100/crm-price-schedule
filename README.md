@@ -68,9 +68,9 @@ X-Api-Key: {your_api_key}
       "office": {
         "id": 1,
         "name": "МО Москва",
-        "address": "Москва, ул. Улица, дом 28",
+        "address": "Москва, ул. Улица, дом 33",
         "phones": "доб. 4017,4023",
-        "comment": "г. Москва, ул. Улица, дом 28",
+        "comment": "г. Москва, ул. Улица, дом 33",
         "city": "Москва",
         "time_zone": "+03:00",
         "is_deleted": 0,
@@ -155,29 +155,53 @@ X-Api-Key: {your_api_key}
     "status": "success",
     "data": [
         {
-            "id": 6,
+            "id": 49,
             "office_id": 1,
             "name": "Иванов Иван Иванович, приписка может быть",
             "comment": "",
-            "min_time": "00:00:00",
-            "max_time": "23:55:00",
+            "created_by": 332,
+            "created_at": "2022-06-28 12:35:54",
+            "min_time": "08:00:00",
+            "max_time": "19:00:00",
             "grid_pitch": 60,
+            "specialty_id": 69,
             "fio": "Иванов Иван Иванович",
-            "erp_employee_doctor_id": null,
+            "user_id_attached": null,
+            "grid_pitch_alternative": null,
+            "bot_enable": 1,
+            "is_deleted": 0,
+            "user_id": 321,
+            "erp_employee_id": 623,
+            "title": null,
+            "achievements": null,
+            "education": null,
+            "experience": null,
+            "hide_profession_in_title": 0,
+            "erp_medoffice_id": null,
+            "erp_employee_doctor_id": 58,
+            "is_procedure": 0,
+            "is_khabarovsk": 0,
+            "erp_analysis_ids": null,
+            "med_doctor_id": null,
+            "is_enable_schedule_from_med": 0,
+            "accept_children": 0,
             "office": {
                 "id": 1,
                 "name": "МО Москва",
-                "address": "г. Москва, ул. Донская, д. 28.",
+                "address": "г. Москва, ул. Тестовая, д. 33.",
                 "phones": "доб. 4017,4023",
-                "comment": "г. Москва, ул. Донская, дом 28 (Метро Шаболовская, выход один единственный. При выходе из метро сразу повернуть направо, идти прямо 100м. до ул. Академика Петровского, повернуть налево и пройти 100м до перекрестка с ул. Донская, перейти на светофоре и сразу повернуть налево. Пройти по ул. Донская 350м до дома 28. Вход с ул. Донская (фасад здания), ориентир - вывеска \"МНОГОПРОФИЛЬНАЯ КДИНИКА ГЕНОМЕД\". Общая длина маршрута 550м, время в пути 6мин (пешком).)\r\nПАРКОВКА: у центра Городская платная 150р/час. На пересечении ул. Донская и Академика Петровского есть 2 бесплатные парковки на ул. Донская возле церкви",
+                "comment": "г. Москва, длыинный текст",
                 "city": "Москва",
                 "time_zone": "+03:00",
                 "is_deleted": 0,
                 "erp_medoffice_id": 1,
                 "city_id": 4400
             },
-            "isActiveApiPrice": false
-        },
+            "isActiveApiPrice": true,
+            "specialtyName": "Генетик"
+        }
+    ]
+}
 ```
 **Примечания:**
 - `isActiveApiPrice` — логическое значение, показывает, активна ли API для price
