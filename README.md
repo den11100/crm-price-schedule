@@ -77,7 +77,8 @@ X-Api-Key: {your_api_key}
         "erp_medoffice_id": 1
         "city_id": 4400
       },
-      "isActiveApiPrice": true
+      "isActiveApiPrice": true,
+      "is_special_type": 1
     },
     {...}
   ]
@@ -116,6 +117,7 @@ X-Api-Key: {your_api_key}
 | `max_time`                  | time      | Время окончания работы (`HH:MM:SS`)                                    |
 | `fio`                       | string    | Чистое название (в name бывают добавляют доп инфу - для crm)           |
 | `isActiveApiPrice`          | boolean   | Активированно ли API для PRICE !!!                                     |
+| `is_special_type`           | integer   | Специальный тип процедурных кабинетов ? (доступно 10 записей на одно время)|
 | `office`                    | object    | Объект офиса (см. ниже)                                                |
 
 #### Поля объекта `office`
